@@ -1,0 +1,12 @@
+div {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	background-color: pink;
+	border-radius: 20px;
+}
+
+div h1 {
+	color: red;
+}
