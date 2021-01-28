@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class Server {
 
 	public static void main(String... args) {
-		new Server();
+		new Server(args.length>0?new File(args[0]):new File("./www"), args.length>1?Integer.parseInt(args[1]):80);
 	}
 	
 	private RequestReader requestReader;
